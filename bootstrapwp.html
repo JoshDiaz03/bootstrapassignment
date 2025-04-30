@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+  <title>Bootstap Webpage</title>
+</head>
+
+<body>
+
+  <header>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#b22e4f;">
+    
+      <div class="container-fluid">
+
+      
+        <a class="navbar-brand" href="#">BootStrap</a>
+
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
+
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+     
+    </nav>
+    
+  </header>
+
+  <main>
+    <form class="p-5 bg-primary m-3">
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First Name" aria-label="First Name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="Email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email" required aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" required>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+        <label class="form-check-label" for="exampleCheck1">Agree to Terms</label>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+  </main>
+
+  <section>
+    <div class="table-responsive m-5">
+      <table class="table table-striped table-hover ml-3 text-center lh-base">
+
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+            <th scope="col">Position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>m.otto@gmail.com</td>
+            <td>123Pas$word</td>
+            <td>Vice President</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>j.thorn@gmail.com</td>
+            <td>4556&paSSword</td>
+            <td>Head of Security</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>John</td>
+            <td>Dough</td>
+            <td>j.dough@gmail.com</td>
+            <td>123@password</td>
+            <td>Sanitation</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Mary</td>
+            <td>Berry</td>
+            <td>m.berry@gmail.com</td>
+            <td>789#password</td>
+            <td>Assistant to Vice President</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Lucy</td>
+            <td>Thorsdottir</td>
+            <td>l.thor@gmail.com</td>
+            <td>098*PaSsword</td>
+            <td>Head Counsel</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Isabelle</td>
+            <td>Doe</td>
+            <td>i.doe@gmail.com</td>
+            <td>5348pAs$worD</td>
+            <td>Sales</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </section>
+
+  <article>
+    <figure class="fluid-container">
+      <img src="bora-bora.jpg" class="img-fluid mt-5" alt="Not Available">
+    </figure>
+    <figure>
+      <img src="lagoon.jpg" class="img-fluid rounded-circle m-1 p-3" alt="Not Available">
+    </figure>
+
+    <div class="d-grid gap-2 col-1 mx-auto mb-3">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-warning d-none d-xl-block" type="button">Button</button>
+    </div>
+
+  </article>
+
+  <footer class="mt-1">
+    <p>&copy 2025 NARWS</p>
+  </footer>
+
+</body>
+
+</html>
